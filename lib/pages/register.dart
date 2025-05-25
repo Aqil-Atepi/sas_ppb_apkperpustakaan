@@ -105,6 +105,7 @@ class _RegisterPageState extends State<RegisterPage> {
         children: [
           TextField(
             controller: _nama,
+            style: TextStyle(color: Colors.black), 
             decoration: InputDecoration(
               hintText: 'Nama Lengkap',
               hintStyle: TextStyle(color: Color(0xFFB6B6B6), fontSize: 14),
@@ -113,6 +114,7 @@ class _RegisterPageState extends State<RegisterPage> {
           SizedBox(height: 15),
           TextField(
             controller: _email,
+            style: TextStyle(color: Colors.black), 
             decoration: InputDecoration(
               hintText: 'Email',
               hintStyle: TextStyle(color: Color(0xFFB6B6B6), fontSize: 14),
@@ -121,6 +123,7 @@ class _RegisterPageState extends State<RegisterPage> {
           SizedBox(height: 15),
           TextField(
             controller: _notlp,
+            style: TextStyle(color: Colors.black), 
             decoration: InputDecoration(
               hintText: 'Nomor Telepon',
               hintStyle: TextStyle(color: Color(0xFFB6B6B6), fontSize: 14),
@@ -129,6 +132,7 @@ class _RegisterPageState extends State<RegisterPage> {
           SizedBox(height: 15),
           TextField(
             controller: _password,
+            style: TextStyle(color: Colors.black), 
             decoration: InputDecoration(
               hintText: 'Password',
               hintStyle: TextStyle(color: Color(0xFFB6B6B6), fontSize: 14),
@@ -137,6 +141,7 @@ class _RegisterPageState extends State<RegisterPage> {
           SizedBox(height: 15),
           TextField(
             controller: _alamat,
+            style: TextStyle(color: Colors.black), 
             decoration: InputDecoration(
               hintText: 'Alamat Rumah',
               hintStyle: TextStyle(color: Color(0xFFB6B6B6), fontSize: 14),
@@ -145,6 +150,7 @@ class _RegisterPageState extends State<RegisterPage> {
           SizedBox(height: 15),
           TextField(
             controller: _tptlahir,
+            style: TextStyle(color: Colors.black), 
             decoration: InputDecoration(
               hintText: 'Tempat Kelahiran',
               hintStyle: TextStyle(color: Color(0xFFB6B6B6), fontSize: 14),
@@ -153,6 +159,7 @@ class _RegisterPageState extends State<RegisterPage> {
           SizedBox(height: 15),
           TextField(
             controller: _tgllahir,
+            style: TextStyle(color: Colors.black), 
             decoration: InputDecoration(
               hintText: 'Tanggal Kelahiran',
               hintStyle: TextStyle(color: Color(0xFFB6B6B6), fontSize: 14),

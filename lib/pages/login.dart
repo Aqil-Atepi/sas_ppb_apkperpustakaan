@@ -92,6 +92,7 @@ class _LoginPageState extends State<LoginPage> {
         children: [
           TextField(
             controller: _userController,
+            style: TextStyle(color: Colors.black), 
             decoration: InputDecoration(
               hintText: 'Username',
               hintStyle: TextStyle(color: Color(0xFFB6B6B6), fontSize: 14),
@@ -100,6 +101,7 @@ class _LoginPageState extends State<LoginPage> {
           SizedBox(height: 15),
           TextField(
             controller: _passwordController,
+            style: TextStyle(color: Colors.black), 
             decoration: InputDecoration(
               hintText: 'Password',
               hintStyle: TextStyle(color: Color(0xFFB6B6B6), fontSize: 14),
