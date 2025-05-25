@@ -154,7 +154,7 @@ class _RegisterPageState extends State<RegisterPage> {
           TextField(
             controller: _tgllahir,
             decoration: InputDecoration(
-              hintText: 'Taggal Kelahiran',
+              hintText: 'Tanggal Kelahiran',
               hintStyle: TextStyle(color: Color(0xFFB6B6B6), fontSize: 14),
             ),
           ),

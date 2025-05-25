@@ -108,7 +108,7 @@ if (res.statusCode == 200 && res.body.isNotEmpty) {
           const SizedBox(height: 8),
           Text(
             'Tanggal Pinjam: ${buku.tglPinjam}',
-            style: const TextStyle(fontSize: 16, color: Colors.black54),
+            style: const TextStyle(fontSize: 16),
             textAlign: TextAlign.center,
           ),
           const SizedBox(height: 32),
