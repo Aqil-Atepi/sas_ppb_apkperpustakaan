@@ -20,7 +20,7 @@ class _LoginPageState extends State<LoginPage> {
   final user = _userController.text.trim();
   final password = _passwordController.text.trim();
 
-  final url = Uri.parse("http://192.168.0.19/flutter/uas_perpus/login.php");
+  final url = Uri.parse("http://192.168.223.9/flutter/uas_perpus/login.php");
 
   try {
     final response = await http.post(url, body: {

@@ -30,7 +30,7 @@ class _RegisterPageState extends State<RegisterPage> {
     final pass = _password.text;
 
     final url = Uri.parse(
-      "http://192.168.0.19/flutter/uas_perpus/register.php",
+      "http://192.168.223.9/flutter/uas_perpus/register.php",
     );
 
     try {
