@@ -20,7 +20,7 @@ class _HomePageState extends State<HomePage> {
 
   Future<List<Buku>> _fetchAvailable() async {
     final url = Uri.parse(
-      'http://192.168.223.9/flutter/uas_perpus/read.php?id_user=${widget.idUser}',
+      'http://192.168.0.9/flutter/uas_perpus/read.php?id_user=${widget.idUser}',
     );
 
     final res = await http.get(url);

@@ -15,7 +15,7 @@ class _RiwayatPageState extends State<RiwayatPage> {
 
   Future<List<Map<String, dynamic>>> _fetchRiwayat() async {
     final url = Uri.parse(
-        'http://192.168.223.9/flutter/uas_perpus/readriwayat.php?id_user=${widget.idUser}');
+        'http://192.168.0.9/flutter/uas_perpus/readriwayat.php?id_user=${widget.idUser}');
     final res = await http.get(url);
 
     if (res.statusCode == 200) {
