@@ -28,7 +28,7 @@ class _DetailPinjamanPageState extends State<DetailPinjamanPage> {
 
     try {
       final res = await http.post(
-  Uri.parse('http://192.168.0.9/flutter/uas_perpus/cancelpinjaman.php'),
+  Uri.parse('http://192.168.98.9/flutter/uas_perpus/cancelpinjaman.php'),
   body: {'id_peminjaman': widget.buku.idPeminjaman.toString(), 'kode_buku': widget.buku.kodeBuku.toString()},
 );
 

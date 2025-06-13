@@ -9,7 +9,7 @@ class BukuDetailPage extends StatelessWidget {
   const BukuDetailPage({super.key, required this.buku, required this.idUser});
 
   Future<void> _pinjamBuku(BuildContext context) async {
-    final url = Uri.parse('http://192.168.0.9/flutter/uas_perpus/pinjam.php');
+    final url = Uri.parse('http://192.168.98.9/flutter/uas_perpus/pinjam.php');
 
     final res = await http.post(url, body: {
       'id_user': idUser.toString(),

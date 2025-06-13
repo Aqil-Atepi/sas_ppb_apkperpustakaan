@@ -17,7 +17,7 @@ class _DaftarPinjamanPageState extends State<DaftarPinjamanPage> {
 
   Future<List<Buku>> _fetchPinjaman() async {
     final url = Uri.parse(
-      'http://192.168.0.9/flutter/uas_perpus/readpinjaman.php?id_user=${widget.idUser}',
+      'http://192.168.98.9/flutter/uas_perpus/readpinjaman.php?id_user=${widget.idUser}',
     );
 
     final res = await http.get(url);
